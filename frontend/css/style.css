@@ -1,0 +1,39 @@
+header {
+    margin: 1em 0;
+  }
+  
+  form {
+    margin-bottom: 1em;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .todo-text {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
+  .todo-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-action {
+    cursor: pointer;
+  }
+  
+  .loading {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
+  
